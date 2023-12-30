@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Css link -->
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <!-- IconScout -->
+    <!-- <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">Thiha Kyaw Zin</a>
+            <div class="nav_meun" id="nav-meun">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link">
+                            <i class="uil uil-estate nav_icon"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">
+                            <i class="uil uil-user nav_icon"></i>Abouts
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skill" class="nav_link">
+                            <i class="uil uil-file-alt nav_icon"></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#service" class="nav_link">
+                            <i class="uil uil-briefcase-alt nav_icon"></i>Service
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#portfolio" class="nav_link">
+                            <i class="uil uil-scenery nav_icon"></i>Portfolio
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link">
+                            <i class="uil uil-message nav_icon"></i>Contact Me
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav_close" id="nav-close"></i>
+            </div>
+            <div class="nav_btns">
+                <!-- Dark Mode -->
+                <!-- <i class="fa-regular fa-moon chg-theme" id="dark-btn"></i> -->
+                <i class="fa-regular fa-sun chg-theme" id="dark_toggle"></i>
+                <i class="uil uil-apps nav_btn" id="nav-btn"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- End Header -->
+    <!-- Main Page -->
+    <div class="main">
+        <!-- Home -->
+        <div class="home" id="home">
+            <div class="home_content container">
+                <div class="home_social">
+                    <a href="https://github.com/Thiha114" target="_blank">
+                        <i class="fa-brands fa-github home_social_icon" title="Github"></i>
+                    </a>
+                    <a href=" https://t.me/thiha_kyaw_zin" target="_blank">
+                        <i class="fa-brands fa-telegram home_social_icon" title="Telegram"></i>
+                    </a>
+                    <a href="" target="_blank">
+                        <i class="fa-brands fa-whatsapp home_social_icon" title="Whatsapp"></i>
+                    </a>
+                    <a href="" target="_blank">
+                        <i class="fa-brands fa-viber home_social_icon" title="Viber"></i>
+                    </a>
+                    <a href="https://www.facebook.com/thiha.kyaw.96343/" target="_blank">
+                        <i class="fa-brands fa-facebook home_social_icon" title="Facebook"></i>
+                    </a>
+                </div>
+                <div class="home_img">
+                    <svg viewBox="10 10 180 180" class="home_background" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path
+                                d="M72.9,-21.8C82.6,6.2,70.4,43.2,45.2,61.4C19.9,79.6,-18.5,79,-42.2,61.1C-65.9,43.2,-74.8,8,-65.3,-19.8C-55.8,-47.5,-27.9,-67.9,1.8,-68.5C31.6,-69,63.1,-49.9,72.9,-21.8Z"
+                                transform="translate(100 100)" />
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path
+                                d="M72.9,-21.8C82.6,6.2,70.4,43.2,45.2,61.4C19.9,79.6,-18.5,79,-42.2,61.1C-65.9,43.2,-74.8,8,-65.3,-19.8C-55.8,-47.5,-27.9,-67.9,1.8,-68.5C31.6,-69,63.1,-49.9,72.9,-21.8Z"
+                                transform="translate(100 100)" />
+                            <image class="home_background_img" x="-10" y="15" href="./image/Profile.png" />
+                        </g>
+                    </svg>
+                </div>
+                <div class="home_data">
+                    <h1 class="home_title">Hi, I'am Thiha Kyaw Zin</h1>
+                    <h3 class="home_subtitle">Backend Developer</h3>
+                    <a href="" class="buttom">Contact Me<i class="uil uil-message"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- End Home Page -->
+        <!-- About Page -->
+        <div class="about" id="about">
+            <h1 class="about_title title">About Me</h1>
+            <h4 class="about_subtitle subtitle">My introduction</h4>
+            <div class="about_container container">
+                <img src="./image/Profile.jpg" class="about_image" alt="" />
+                <div class="about_data">
+                    <p class="about_description">
+                        My name is Thiha Kyaw Zin.I have no work experience , I'm sure I can
+                        learn as fast as possible and able to work under pressure.Also I
+                        have good communication skill, can work in a team environment and
+                        good creative skill.Besides that I'm self-motivated, reliable,
+                        responsible and hardworking person.
+                    </p>
+                    <div class="about_info">
+                        <div class="">
+                            <div class="about_info_title">0+</div>
+                            <div class="about_info_description">
+                                Years <br />
+                                experience
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="about_info_title">2+</div>
+                            <div class="about_info_description">
+                                Completed <br />
+                                projects
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="about_info_title">0+</div>
+                            <div class="about_info_description">
+                                Companies <br />
+                                worked
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about_buttom">
+                        <a href="./CV Document.pdf" download class="buttom">
+                            Download CV<i class="uil uil-import"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End About Page -->
+        <!-- Skill Page -->
+        <div class="skill" id="skill">
+            <h1 class="skill_title title">Skills</h1>
+            <h4 class="skill_subtitle subtitle">My technical level</h4>
+            <div class="skill_container container">
+                <div class="skill_content skill_open">
+                    <div class="skill_header">
+                        <i class="fa-solid fa-code skill_icon"></i>
+                        <h3 class="skill_content_title">Frontend Developer</h3>
+                        <i class="fa-solid fa-angle-down skill_downarrow"></i>
+                    </div>
+                    <div class="skill_list">
+                        <div class="">
+                            <div class="skill_list_title">
+                                <div class="skill_list_container">
+                                    <img class="skill_image" src="./image/html-1.svg" alt="" />
+                                    <h4 class="skill_name">Html</h4>
+                                </div>
+                                <span class="skill_number">80%</span>
+                            </div>
+                            <div class="skill_bar">
+                                <span class="skill_percentage html_bar"></span>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="skill_list_title">
+                                <div class="skill_list_container">
+                                    <img class="skill_image" src="./image/css-3.svg" alt="" />
+                                    <h4 class="skill_name">Css</h4>
+                                </div>
+
+                                <span class="skill_number">80%</span>
+                            </div>
+                            <div class="skill_bar">
+                                <span class="skill_percentage css_bar"></span>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="skill_list_title">
+                                <div class="skill_list_container">
+                                    <img class="skill_image" src="./image/bootstrap-5-1.svg" alt="" />
+                                    <h4 class="skill_name">Bootstrap</h4>
+                                </div>
+                                <span class="skill_number">80%</span>
+                            </div>
+                            <div class="skill_bar">
+                                <span class="skill_percentage bootstrap_bar"></span>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="skill_list_title">
+                                <div class="skill_list_container">
+                                    <img class="skill_image" src="./image/javascript-1.svg" alt="" />
+                                    <h4 class="skill_name">JavaScript</h4>
+                                </div>
+                                <span class="skill_number">40%</span>
+                            </div>
+                            <div class="skill_bar">
+                                <span class="skill_percentage javascript_bar"></span>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="skill_list_title">
+                                <div class="skill_list_container">
+                                    <img class="skill_image" src="./image/vue-js-1.svg" alt="" />
+                                    <h4 class="skill_name">Vue</h4>
+                                </div>
+                                <span class="skill_number">40%</span>
+                            </div>
+                            <div class="skill_bar">
+                                <span class="skill_percentage vue_bar"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill_content skill_toggle">
+                    <div class="skill_header">
+                        <i class="fa-solid fa-server skill_icon"></i>
+                        <h3 class="skill_content_title">Backend Developer</h3>
+                        <i class="fa-solid fa-angle-down skill_downarrow"></i>
+                    </div>
+                    <div class="skill_list">
+                        <div class="">
+                            <div class="skill_list_title">
+                                <div class="skill_list_container">
+                                    <img class="skill_image" src="./image/php-1.svg" alt="" />
+                                    <h4 class="skill_name">PHP</h4>
+                                </div>
+                                <span class="skill_number">75%</span>
+                            </div>
+                            <div class="skill_bar">
+                                <span class="skill_percentage php_bar"></span>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="skill_list_title">
+                                <div class="skill_list_container">
+                                    <img class="skill_image" src="./image/laravel-2.svg" alt="" />
+                                    <h4 class="skill_name">Laravel</h4>
+                                </div>
+                                <span class="skill_number">75%</span>
+                            </div>
+                            <div class="skill_bar">
+                                <span class="skill_percentage laravel_bar"></span>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="skill_list_title">
+                                <div class="skill_list_container">
+                                    <img class="skill_image" src="./image/mysql-3.svg" alt="" />
+                                    <h4 class="skill_name">MySQL</h4>
+                                </div>
+                                <span class="skill_number">60%</span>
+                            </div>
+                            <div class="skill_bar">
+                                <span class="skill_percentage mysql_bar"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Skill Page -->
+        <!-- Qualification Page -->
+        <div class="qualification" id="qualification">
+            <h1 class="qualification_title title">Qualification</h1>
+            <h4 class="qualification_subtitle subtitle">My personal journey</h4>
+            <div class="qualification_container container">
+                <div class="qualification_content">
+                    <div class="qualification_content_btn education qualification_active" data-target="#education">
+                        <i class="fa-solid fa-graduation-cap qualification_icon"></i>
+                        Education
+                    </div>
+                    <div class="qualification_content_btn work" data-target="#work">
+                        <i class="fa-solid fa-briefcase qualification_icon"></i>
+                        Work
+                    </div>
+                </div>
+
+                <div class="qualification_section">
+                    <div class="qualification_sections_container qualification_active" data-content id="education">
+                        <div class="qualification_data">
+                            <div class="">
+                                <h3 class="education_title">Diploma in Software</h3>
+                                <h5 class="education_subtitle">Winner Computer Group</h5>
+                                <div class="education_date">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    2016-2017
+                                </div>
+                            </div>
+
+                            <div class="">
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                        </div>
+                        <div class="qualification_data">
+                            <div class=""></div>
+                            <div class="">
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                            <div class="">
+                                <h3 class="education_title">Mathematics</h3>
+                                <h5 class="education_subtitle">West Yangon University</h5>
+                                <div class="education_date">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    2016-present
+                                </div>
+                            </div>
+                        </div>
+                        <div class="qualification_data">
+                            <div class="">
+                                <h3 class="education_title">Full Stack Developer</h3>
+                                <h5 class="education_subtitle">Code Lab</h5>
+                                <div class="education_date">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    2022-2023
+                                </div>
+                            </div>
+
+                            <div class="">
+                                <span class="qualification_rounder"></span>
+                                <!-- <span class="qualification_line"></span> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="qualification_sections_container" data-content id="work">
+                        <div class="qualification_data">
+                            <div class="">
+                                <h3 class="education_title">Backend Developer</h3>
+                                <h5 class="education_subtitle">-</h5>
+                                <div class="education_date">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    -
+                                </div>
+                            </div>
+
+                            <div class="">
+                                <span class="qualification_rounder"></span>
+                                <!-- <span class="qualification_line"></span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Qualification Page -->
+        <!-- Service Page -->
+        <div class="service" id="service">
+            <h1 class="service_title title">Services</h1>
+            <h4 class="service_subtitle subtitle">What i offer</h4>
+            <div class="service_container container">
+                <!-- Frontend -->
+                <div class="service_content">
+                    <div class="">
+                        <i class="fa-solid fa-code service_icon"></i>
+                        <h3 class="service_content_title">Frontend Developer</h3>
+                    </div>
+                    <div class="service_btn buttom">
+                        View More
+                        <i class="fa-solid fa-arrow-right service_btn_icon"></i>
+                    </div>
+                    <div class="service_data">
+                        <div class="service_data_content">
+                            <h4 class="service_data_title">Frontend Developer</h4>
+                            <i class="fa-solid fa-xmark service_data_close"></i>
+                            <ul class="service_data_services">
+                                <li class="service_data_service">
+                                    <i class="fa-regular fa-circle-check service_data_icon"></i>
+                                    <p>I develop the user interface</p>
+                                </li>
+                                <li class="service_data_service">
+                                    <i class="fa-regular fa-circle-check service_data_icon"></i>
+                                    <p>Web page development</p>
+                                </li>
+                                <li class="service_data_service">
+                                    <i class="fa-regular fa-circle-check service_data_icon"></i>
+                                    <p>I create ui layouts</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Backend -->
+                <div class="service_content">
+                    <div class="">
+                        <i class="fa-solid fa-server service_icon"></i>
+                        <h3 class="service_content_title">Backend Developer</h3>
+                    </div>
+                    <div class="service_btn buttom">
+                        View More
+                        <i class="fa-solid fa-arrow-right service_btn_icon"></i>
+                    </div>
+                    <div class="service_data">
+                        <div class="service_data_content">
+                            <h4 class="service_data_title">Backend Developer</h4>
+                            <i class="fa-solid fa-xmark service_data_close"></i>
+                            <ul class="service_data_services">
+                                <li class="service_data_service">
+                                    <i class="fa-regular fa-circle-check service_data_icon"></i>
+                                    <p>Build and maintain websites</p>
+                                </li>
+                                <li class="service_data_service">
+                                    <i class="fa-regular fa-circle-check service_data_icon"></i>
+                                    <p>Write high-quality code</p>
+                                </li>
+                                <li class="service_data_service">
+                                    <i class="fa-regular fa-circle-check service_data_icon"></i>
+                                    <p>Database Management</p>
+                                </li>
+                                <li class="service_data_service">
+                                    <i class="fa-regular fa-circle-check service_data_icon"></i>
+                                    <p>Troubleshoot and debug</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Service Page -->
+        <!-- Portfolio Page -->
+        <div class="portfolio" id="portfolio">
+            <h1 class="portfolio_title title">Portfolio</h1>
+            <h4 class="portfolio_subtitle subtitle">Recent Work</h4>
+            <div class="portfolio_container container slideshow-container">
+                <div class="portfolio_content fade">
+                    <img src="./image/Screenshot (318).png" class="portfolio_img" alt="" />
+                    <div class="portfolio_data">
+                        <h3 class="portfolio_data_title">Pizza Order System(POS)</h3>
+                        <p class="portfolio_data_description">
+                            I create 2 templates for this.Admin & Client.
+                            Admin can defined category and product.And he can manage user account.
+                            Client can order easily.
+                        </p>
+                        <div class="portfolio_btn">
+                            <a href="" class="demo_btn buttom">
+                                Demo
+                                <i class="fa-solid fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_content fade">
+                    <img src="./image/Screenshot (317).png" class="portfolio_img" alt="" />
+                    <div class="portfolio_data">
+                        <h3 class="portfolio_data_title">Pizza Order System(POS)</h3>
+                        <p class="portfolio_data_description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Praesentium vel sapiente nulla dolore sunt
+                        </p>
+                        <div class="portfolio_btn">
+                            <a href="" class="demo_btn buttom">
+                                Demo
+                                <i class="fa-solid fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_content fade">
+                    <img src="./image/Screenshot (318).png" class="portfolio_img" alt="" />
+                    <div class="portfolio_data">
+                        <h3 class="portfolio_data_title">Pizza Order System(POS)</h3>
+                        <p class="portfolio_data_description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Praesentium vel sapiente nulla dolore sunt
+                        </p>
+                        <div class="portfolio_btn">
+                            <a href="" class="demo_btn buttom">
+                                Demo
+                                <i class="fa-solid fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)"><i class="fa-solid fa-angle-left"></i></a>
+                <a class="next" onclick="plusSlides(1)"><i class="fa-solid fa-angle-right"></i></a>
+
+                <div style="text-align: center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+        </div>
+        <!-- End Portfolio Page -->
+        <!-- Contact Page -->
+        <div class="contact" id="contact">
+            <h1 class="contact_title title">Contact Me</h1>
+            <h4 class="contact_subtitle subtitle">Get in touch</h4>
+            <div class="contact_container container">
+                <div class="">
+                    <div class="contact_info">
+                        <i class="fa-solid fa-phone contact_icon"></i>
+                        <div class="">
+                            <h3 class="contact_info_title">Call Me</h3>
+                            <span class="contact_info_subtitle">09 776 453 021</span>
+                        </div>
+                    </div>
+                    <div class="contact_info">
+                        <i class="fa-solid fa-envelope contact_icon"></i>
+                        <div class="">
+                            <h3 class="contact_info_title">Email</h3>
+                            <span class="contact_info_subtitle">thiha794411@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact_info">
+                        <i class="fa-solid fa-map-location-dot contact_icon"></i>
+                        <div class="">
+                            <h3 class="contact_info_title">Location</h3>
+                            <span class="contact_info_subtitle">Mayangone,Yangon</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact_form">
+                    <form action="">
+                        <div class="contact_form_container">
+                            <div class="contact_inputs">
+                                <label for="" class="contact_label">Name</label>
+                                <input type="text" name="name" class="contact_input" />
+                            </div>
+                            <div class="contact_inputs">
+                                <label for="" class="contact_label">Email</label>
+                                <input type="email" name="email" class="contact_input" />
+                            </div>
+                            <div class="contact_inputs">
+                                <label for="" class="contact_label">Message</label>
+                                <textarea class="contact_input" name="message" cols="30" rows="5"></textarea>
+                            </div>
+                            <div class="">
+                                <button type="submit" class="buttom sent_btn">Sent Message<i class="fa-solid fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End Contact Page -->
+    </div>
+    <!-- End Main Page -->
+    <!-- Footer Page -->
+    <footer class="footer">
+        <div class="footer_bg">
+            <div class="footer_container container">
+                <div class="">
+                    <h1 class="footer_title">Thiha Kyaw Zin</h1>
+                    <h4 class="footer_subtitle">Backend Developer</h4>
+                </div>
+                <ul class="footer_links">
+                    <li>
+                        <a href="#service" class="footer_link">Service</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer_link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer_link">Contact Me</a>
+                    </li>
+                </ul>
+                <div class="footer_socials">
+                    <a href="https://www.facebook.com/thiha.kyaw.96343/" target="_blank" class="footer_social">
+                        <i class="fa-brands fa-facebook footer_social_icon"></i>
+                    </a>
+                    <a href="#" target="_blank" class="footer_social">
+                        <i class="fa-solid fa-envelope mail_icon footer_social_icon"></i>
+                    </a>
+                    <a href="https://discord.com/channels/Thiha#4387" target="_blank" class="footer_social">
+                        <i class="fa-brands fa-discord discord_icon footer_social_icon"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer_copy">&copy; Thiha Kyaw Zin. All right reserved</p>
+        </div>
+    </footer>
+    <!-- End Footer Page -->
+    <a href="#home" class="scrollup" id="scroll_up">
+        <i class="fa-solid fa-arrow-up scrollup_icon"></i>
+    </a>
+</body>
+<script src="./js/index.js"></script>
+
+</html>
