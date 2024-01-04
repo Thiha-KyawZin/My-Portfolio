@@ -194,6 +194,8 @@
 }
 .about_description{
     margin-bottom: 2.5rem;
+    text-align: justify;
+    letter-spacing: 0.2rem;
 }
 .about_info{
     display: flex;
@@ -283,7 +285,7 @@
     width: 80%;
 }
 .javascript_bar{
-    width: 40%;
+    width: 60%;
 }
 .vue_bar{
     width: 40%;
@@ -597,13 +599,13 @@
 .footer{
     padding: 1rem 0 2rem;
 }
-.footer_container{
-    display: grid;
-    row-gap: 3rem;
-}
 .footer_bg{
     background-color: var(--main-color);
     padding: 2rem 0 3rem;
+}
+.footer_container{
+    display: grid;
+    row-gap: 3rem;
 }
 .footer_title{
     margin-bottom: 0.25rem;
@@ -615,6 +617,8 @@
 .footer_links{
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
+    font-size: 17px;
     row-gap: 1.5rem;
 }
 .footer_link{
@@ -725,7 +729,6 @@ body.dark-theme{
   .service_data_close{
     top: 0.5rem;
   }
-
   .footer_copy{
     font-size: 0.8rem;
   }
@@ -747,11 +750,15 @@ body.dark-theme{
     .about_container,
     .skill_container,
     .contact_container,
-    .portfolio_content,
-    .footer_container{
+    .portfolio_content{
         display: grid;
         gap: 2rem;
         grid-template-columns: repeat(2,1fr);
+    }
+    .footer_container{
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: auto auto auto;
     }
     .about_image{
         justify-self: center;
@@ -838,9 +845,6 @@ body.dark-theme{
         .about_container{
             column-gap: 3rem;
         }
-        .about_description{
-            text-align: initial;
-        }
         .about_info{
             justify-content: space-between;
         }
@@ -874,12 +878,10 @@ body.dark-theme{
         .footer_bg{
             padding: 3rem 0 3.5rem;
         }
-        .footer_container{
-            grid-template-columns: repeat(3,1fr);
-        }
         .footer_links{
             flex-direction: row;
             column-gap: 2rem;
+            font-size: 17px;
         }
         .footer_socials{
             justify-self: flex-end;
@@ -916,7 +918,6 @@ body.dark-theme{
             font-size: 2.8rem;
             margin: -22px -1.5rem 0;
         }
-
         .contact_form{
             width: 460px;
         }
